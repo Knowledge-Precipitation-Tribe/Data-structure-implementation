@@ -21,9 +21,10 @@ func CreateTree(node *model.Node){
 	}
 }
 
+//先序遍历显示树结构
 func PreShowTree(node *model.Node){
 	if node != nil{
-		fmt.Printf("%s\t",node.Val)
+		fmt.Printf("%s %d\n",node.Val, len(node.Val))
 		PreShowTree(node.Left)
 		PreShowTree(node.Right)
 	}
