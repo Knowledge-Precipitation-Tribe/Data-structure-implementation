@@ -14,6 +14,7 @@
 - <a href = "#排序">排序</a>
 - <a href = "#查找">查找</a>
 - <a herf = "#参考文献">参考文献</a>
+  - <a href = "#动态规划">动态规划</a>
 
 ## [线性表](#content)
 
@@ -35,7 +36,19 @@
 
 [4] [williamfiset/Algorithms](https://github.com/williamfiset/Algorithms)
 
+### [动态规划](#content)
 
+[1] Nikola Otasevic: [Follow these steps to solve any Dynamic Programming interview problem](https://medium.com/free-code-camp/follow-these-steps-to-solve-any-dynamic-programming-interview-problem-cc98e508cd0e)
+
+[2] Alaina Kafkes:  [Demystifying Dynamic Programming](https://medium.com/free-code-camp/demystifying-dynamic-programming-3efafb8d4296)
+
+[3] Oleksii Trekhleb:  [Dynamic Programming vs Divide-and-Conquer](https://itnext.io/dynamic-programming-vs-divide-and-conquer-2fea680becbe)
+
+[4] Vaidehi Joshi: [Less Repetition, More Dynamic Programming](https://medium.com/basecs/less-repetition-more-dynamic-programming-43d29830a630) 
+
+[5] Coding Freak: [Top 50 Dynamic Programming Practice Problems](https://blog.usejournal.com/top-50-dynamic-programming-practice-problems-4208fed71aa3)
+
+[6] HankingHu: [动态规划 Dynamic Programming--从菜鸟到老鸟](https://blog.csdn.net/u013309870/article/details/75193592)
 
 
 
