@@ -36,6 +36,10 @@
 
 [4] [williamfiset/Algorithms](https://github.com/williamfiset/Algorithms)
 
+### [滑动窗口](#content)
+
+[1] https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/solution/shi-yao-shi-hua-dong-chuang-kou-yi-ji-ru-he-yong-h/
+
 ### [动态规划](#content)
 
 [1] Nikola Otasevic: [Follow these steps to solve any Dynamic Programming interview problem](https://medium.com/free-code-camp/follow-these-steps-to-solve-any-dynamic-programming-interview-problem-cc98e508cd0e)
