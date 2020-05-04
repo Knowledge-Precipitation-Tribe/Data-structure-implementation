@@ -2,18 +2,18 @@ package LinkedListWithoutHead
 
 import (
 	"fmt"
-	"go-implementation/LinkedList/model"
+	"go-implementation/model/LinkedList"
 )
 
 //不含头节点的链表
 //头插法创建链表
-func CreateHead(n int) *model.Node {
-	head := &model.Node{
+func CreateHead(n int) *LinkedList.Node {
+	head := &LinkedList.Node{
 		Val:  0,
 		Next: nil,
 	}
 	for i := 1; i < n; i++ {
-		temp := &model.Node{
+		temp := &LinkedList.Node{
 			Val:  i,
 			Next: nil,
 		}
@@ -24,14 +24,14 @@ func CreateHead(n int) *model.Node {
 }
 
 //尾插法创建链表
-func CreateTail(n int) *model.Node {
-	head := &model.Node{
+func CreateTail(n int) *LinkedList.Node {
+	head := &LinkedList.Node{
 		Val:  0,
 		Next: nil,
 	}
 	p := head
 	for i := 1; i < n; i++ {
-		temp := &model.Node{
+		temp := &LinkedList.Node{
 			Val:  i,
 			Next: nil,
 		}
@@ -41,7 +41,7 @@ func CreateTail(n int) *model.Node {
 	return head
 }
 
-func ShowList(head *model.Node, name string) {
+func ShowList(head *LinkedList.Node, name string) {
 	fmt.Printf("%s :\n", name)
 	for temp := head; temp != nil; temp = temp.Next {
 		fmt.Printf("%d\t", temp.Val)

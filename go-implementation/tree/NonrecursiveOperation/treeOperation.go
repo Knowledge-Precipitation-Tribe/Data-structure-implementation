@@ -1,8 +1,10 @@
 package NonrecursiveOperation
 
-import "go-implementation/tree/model"
+import (
+	"go-implementation/model/tree"
+)
 
-func PreShow(node *model.Node){
+func PreShow(node *tree.BTNode){
 	if node != nil{
 
 	}

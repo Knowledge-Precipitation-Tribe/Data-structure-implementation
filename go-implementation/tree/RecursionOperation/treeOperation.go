@@ -2,18 +2,18 @@ package RecursionOperation
 
 import (
 	"fmt"
-	"go-implementation/tree/model"
+	"go-implementation/model/tree"
 )
 
 //输入字符串来创建树，#代表空
-func CreateTree(node *model.Node) {
+func CreateTree(node *tree.BTNode) {
 	s := ""
 	fmt.Println("请输入节点的值： ")
 	fmt.Scanln(&s)
 	if s != "#" {
 		node.Val = s
-		node.Left = &model.Node{}
-		node.Right = &model.Node{}
+		node.Left = &tree.BTNode{}
+		node.Right = &tree.BTNode{}
 		CreateTree(node.Left)
 		CreateTree(node.Right)
 	} else {
@@ -22,28 +22,28 @@ func CreateTree(node *model.Node) {
 }
 
 //先序遍历显示树结构
-func PreShowTree(node *model.Node) {
-	if node != nil{
-		fmt.Printf("%s %d\n", node.Val, len(node.Val))
+func PreShowTree(node *tree.BTNode) {
+	if *node != (tree.BTNode{}) && node != nil{
+		fmt.Printf("%s", node.Val)
 		PreShowTree(node.Left)
 		PreShowTree(node.Right)
 	}
 }
 
 //中序遍历
-func InShowTree(node *model.Node) {
-	if node != nil {
+func InShowTree(node *tree.BTNode) {
+	if *node != (tree.BTNode{}) && node != nil{
 		PreShowTree(node.Left)
-		fmt.Printf("%s %d\n", node.Val, len(node.Val))
+		fmt.Printf("%s", node.Val)
 		PreShowTree(node.Right)
 	}
 }
 
 //后序遍历
-func PostShowTree(node *model.Node) {
-	if node != nil {
+func PostShowTree(node *tree.BTNode) {
+	if *node != (tree.BTNode{}) && node != nil{
 		PreShowTree(node.Left)
 		PreShowTree(node.Right)
-		fmt.Printf("%s %d\n", node.Val, len(node.Val))
+		fmt.Printf("%s", node.Val)
 	}
 }

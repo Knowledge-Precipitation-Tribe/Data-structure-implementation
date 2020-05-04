@@ -1,12 +1,12 @@
 package main
 
 import (
+	"go-implementation/model/tree"
 	"go-implementation/tree/RecursionOperation"
-	"go-implementation/tree/model"
 )
 
 func main() {
-	root := &model.Node{}
+	root := &tree.BTNode{}
 	RecursionOperation.CreateTree(root)
 	RecursionOperation.PreShowTree(root)
 }

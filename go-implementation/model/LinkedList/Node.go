@@ -1,4 +1,4 @@
-package model
+package LinkedList
 
 type Node struct{
 	Val int
