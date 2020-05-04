@@ -24,7 +24,7 @@ func CreateTree(node *tree.BTNode) {
 //先序遍历显示树结构
 func PreShowTree(node *tree.BTNode) {
 	if *node != (tree.BTNode{}) && node != nil{
-		fmt.Printf("%s", node.Val)
+		fmt.Printf("%s\n", node.Val)
 		PreShowTree(node.Left)
 		PreShowTree(node.Right)
 	}
@@ -34,7 +34,7 @@ func PreShowTree(node *tree.BTNode) {
 func InShowTree(node *tree.BTNode) {
 	if *node != (tree.BTNode{}) && node != nil{
 		PreShowTree(node.Left)
-		fmt.Printf("%s", node.Val)
+		fmt.Printf("%s\n", node.Val)
 		PreShowTree(node.Right)
 	}
 }
@@ -44,6 +44,6 @@ func PostShowTree(node *tree.BTNode) {
 	if *node != (tree.BTNode{}) && node != nil{
 		PreShowTree(node.Left)
 		PreShowTree(node.Right)
-		fmt.Printf("%s", node.Val)
+		fmt.Printf("%s\n", node.Val)
 	}
 }
