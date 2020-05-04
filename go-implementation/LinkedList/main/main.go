@@ -1,6 +1,8 @@
 package main
 
-import "../LinkedListWithoutHead"
+import (
+	"go-implementation/LinkedList/LinkedListWithoutHead"
+)
 
 func main() {
 	//head := LinkedListWithHead.CreateHead(10)
