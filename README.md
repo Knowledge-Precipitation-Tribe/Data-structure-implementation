@@ -22,11 +22,11 @@
 
 [2] 算法第四版: https://book.douban.com/subject/19952400/
 
-[3] play-with-Data-Struces
+[3] [play-with-Data-Struces](play-with-Data-Struces)
 
-[4] problem-solving-with-algorithms-and-data-structure-using-pytho, 以及中文版本
+[4] [problem-solving-with-algorithms-and-data-structure-using-pytho](https://runestone.academy/runestone/books/published/pythonds/index.html), 以及[中文版本](https://github.com/facert/python-data-structure-cn)
 
-[5] williamfiset/Algorithms
+[5] [williamfiset/Algorithms](https://github.com/williamfiset/Algorithms)
 
 ### [滑动窗口](#content)
 
@@ -34,17 +34,17 @@
 
 ### [动态规划](#content)
 
-[1] Nikola Otasevic: Follow these steps to solve any Dynamic Programming interview problem
+[1] Nikola Otasevic: [Follow these steps to solve any Dynamic Programming interview problem](https://medium.com/free-code-camp/follow-these-steps-to-solve-any-dynamic-programming-interview-problem-cc98e508cd0e)
 
-[2] Alaina Kafkes: Demystifying Dynamic Programming
+[2] Alaina Kafkes: [Demystifying Dynamic Programming](https://medium.com/free-code-camp/demystifying-dynamic-programming-3efafb8d4296)
 
-[3] Oleksii Trekhleb: Dynamic Programming vs Divide-and-Conquer
+[3] Oleksii Trekhleb: [Dynamic Programming vs Divide-and-Conquer](https://itnext.io/dynamic-programming-vs-divide-and-conquer-2fea680becbe)
 
-[4] Vaidehi Joshi: Less Repetition, More Dynamic Programming
+[4] Vaidehi Joshi: [Less Repetition, More Dynamic Programming](https://medium.com/basecs/less-repetition-more-dynamic-programming-43d29830a630)
 
-[5] Coding Freak: Top 50 Dynamic Programming Practice Problems
+[5] Coding Freak: [Top 50 Dynamic Programming Practice Problems](https://blog.usejournal.com/top-50-dynamic-programming-practice-problems-4208fed71aa3)
 
-[6] HankingHu: 动态规划 Dynamic Programming--从菜鸟到老鸟
+[6] HankingHu: [动态规划 Dynamic Programming--从菜鸟到老鸟](https://blog.csdn.net/u013309870/article/details/75193592)
 
 ### [算法可视化](#content)
 
