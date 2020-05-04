@@ -19,9 +19,13 @@
 ## [参考文献](#content)
 
 [1] labuladong的算法小抄: https://labuladong.gitbook.io/algo/
+
 [2] 算法第四版: https://book.douban.com/subject/19952400/
+
 [3] play-with-Data-Struces
+
 [4] problem-solving-with-algorithms-and-data-structure-using-pytho, 以及中文版本
+
 [5] williamfiset/Algorithms
 
 ### [滑动窗口](#content)
@@ -31,16 +35,23 @@
 ### [动态规划](#content)
 
 [1] Nikola Otasevic: Follow these steps to solve any Dynamic Programming interview problem
+
 [2] Alaina Kafkes: Demystifying Dynamic Programming
+
 [3] Oleksii Trekhleb: Dynamic Programming vs Divide-and-Conquer
+
 [4] Vaidehi Joshi: Less Repetition, More Dynamic Programming
+
 [5] Coding Freak: Top 50 Dynamic Programming Practice Problems
+
 [6] HankingHu: 动态规划 Dynamic Programming--从菜鸟到老鸟
 
 ### [算法可视化](#content)
 
 [1] VisuAlgo: https://visualgo.net/zh
+
 [2] https://www.cs.usfca.edu/~galles/visualization/about.html
+
 [3] https://algorithm-visualizer.org/
 
 
