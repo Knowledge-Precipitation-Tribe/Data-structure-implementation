@@ -1,15 +1,20 @@
-package quick_union
+package weighted_quick_union_with_path_compression
 
 type UF struct {
 	id []int
+	sz []int
 	count int
 }
 
 func (uf *UF) Init(n int){
 	uf.count = n
 	uf.id = make([]int, n)
+	uf.sz = make([]int, n)
 	for i := 0; i < n; i++{
 		uf.id[i] = i
+	}
+	for i := 0; i < n; i++{
+		uf.sz[i] = i
 	}
 }
 
@@ -18,14 +23,13 @@ func (uf *UF) Count() int {
 	return uf.count
 }
 
-//实现方式2：采用树的形式，找到当前结点所属的根结点，判断两个变量是否属于统一连通分量
-//这样实现就代表不同连通分量形成了一个森林
+//实现方式4：采用路径压缩的方法，让每个结点的直接上级就是根结点，构造一颗扁平的树
 //查询一个变量所属的连通分量
 func (uf *UF) Find(p int) int {
-	for p != uf.id[p]{
-		p = uf.id[p]
+	if p != uf.id[p]{
+		uf.id[p] = uf.Find(uf.id[p])
 	}
-	return p
+	return uf.id[p]
 }
 
 //在p和q之间添加连接
@@ -36,7 +40,14 @@ func (uf *UF) Union(p int, q int){
 	if pRoot == qRoot {
 		return
 	}
-	uf.id[pRoot] = qRoot
+	if uf.sz[pRoot] < uf.sz[qRoot]{
+		uf.id[pRoot] = qRoot
+		uf.sz[qRoot] += uf.sz[pRoot]
+	}else{
+		uf.id[qRoot] = pRoot
+		uf.sz[pRoot] += uf.sz[qRoot]
+	}
+
 	uf.count--
 }
 

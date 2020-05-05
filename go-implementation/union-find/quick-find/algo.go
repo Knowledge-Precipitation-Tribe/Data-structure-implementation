@@ -46,3 +46,7 @@ func (uf *UF) Union(p int, q int){
 func (uf *UF) Connected(p int, q int)bool{
 	return uf.Find(p) == uf.Find(q)
 }
+
+func (uf *UF) GetID()[]int{
+	return uf.id
+}
