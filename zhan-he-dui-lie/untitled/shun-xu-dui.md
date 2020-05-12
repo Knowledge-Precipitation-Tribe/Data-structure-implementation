@@ -2,9 +2,13 @@
 
 ## 循环队列
 
-顺序队的实现我们一般采取循环队列的方式。如果不采取这种方式的话，由于队列的特性，每次出队空闲下的空间我们就没有办法继续利用了。
+在顺序队中，通常让队尾指针rear指向刚进队的元素位置，让队首指针front指向刚出队的元素位置，因此，元素进队的时候，rear要向后移动；元素出队的时候，front也要向后移动。这样经过一些列的出队和进队操作后，两个指针最终会到达数组末端的`maxSize-1`处。这时虽然队列中已经没有元素了，但仍然无法让元素进队，这就是所谓的**假溢出**现象。
+
+为了解决这个问题，我们采取循环队列的方式，就是将数组弄成逻辑上的环状。让front和rear沿着环走，这样就不会出现假溢出现象。
 
 ![](../../.gitbook/assets/image%20%2824%29.png)
+
+从图示中可以看到，我们必须牺牲一个空间，以此来判断队列是否为空。
 
 ## 顺序队的定义
 
@@ -21,56 +25,51 @@ type Queue struct {
 * front代表队头
 * rear代表队尾
 
-## 栈的状态
+## 队列的状态
 
-### 栈空
+### 队空
 
 ```go
-top == -1
+queue.front == queue.rear
 ```
 
-当然`top == 0`也是可以的，只不过那样会浪费一个存储空间。
-
 ```go
-//判断是否为空
-func (stack *Stack)IsEmpty() bool{
-	if stack.top == -1{
+//判断队空
+func (queue *Queue)IsEmpty() bool{
+	if queue.front == queue.rear{
 		return true
 	}
 	return false
 }
 ```
 
-### 栈满
+### 队满
 
 ```go
-top == MAxSize - 1
+(queue.rear + 1) % queue.maxSize == queue.front
 ```
-
-其实一般来说会给栈规定一个最大存储容量MaxSize，但是在go中我们可以使用切片方式理论上来实现无限栈。
-
-### 非法情况
-
-* **上溢：**栈满仍然继续入栈
-* **下溢：**栈空仍然继续出栈
 
 ## 两个操作
 
-### 入栈
+### 入队
 
-注意我们的这种实现方式要先移动栈顶指针top，在执行入队操作。
+移动队尾指针
 
 ```go
-//数据入栈
-func (stack *Stack)Push(v interface{}){
-	stack.top++
-	stack.data = append(stack.data, v)
+//入队
+func (queue *Queue)EnQueue(v interface{}) error{
+	if queue.IsFull(){
+		return errors.New("full queue")
+	}
+	queue.rear = (queue.rear + 1) % queue.maxSize
+	queue.data[queue.rear] = v
+	return nil
 }
 ```
 
 ### 出栈
 
-注意我们的这种实现方式要取出元素，再移动栈顶指针top。
+移动
 
 ```go
 //数据出栈
