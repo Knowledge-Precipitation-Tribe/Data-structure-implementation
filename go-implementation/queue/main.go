@@ -2,13 +2,15 @@ package main
 
 import (
 	"fmt"
-	"go-implementation/queue/sequential-queue"
+	"go-implementation/queue/linked-queue"
 )
 
 func main() {
-	queue := sequential_queue.Queue{}
+	//queue := sequential_queue.Queue{}
+	queue := linked_queue.Queue{}
 
-	queue.InitQueue(3)
+	//queue.InitQueue(3)
+
 	queue.EnQueue(1)
 	queue.EnQueue(2)
 	queue.EnQueue(3)
