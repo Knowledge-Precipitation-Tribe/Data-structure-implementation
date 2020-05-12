@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	"go-implementation/stack/sequential-stack"
+	"go-implementation/stack/linked-stack"
 )
 
 func main() {
-	stack := &sequential_stack.Stack{}
+	//stack := &sequential_stack.Stack{}
+    stack := &linked_stack.LNode{}
 
 	stack.InitStack()
 	stack.Push(1)
