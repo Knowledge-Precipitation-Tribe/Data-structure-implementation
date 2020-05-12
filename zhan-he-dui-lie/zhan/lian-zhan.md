@@ -55,68 +55,60 @@ func (node *LNode)Push(v interface{}){
 
 ### 出栈
 
-这里这里
+这里就是含头结点的删除
 
 ```go
-//数据出栈
-func (stack *Stack)Pop() (interface{}, error){
-	if stack.IsEmpty(){
+// 出栈
+func (node *LNode)Pop() (interface{}, error) {
+	if node.IsEmpty(){
 		return nil, errors.New("empty stack")
 	}
-	v := stack.data[stack.top]
-	stack.top--
-	if stack.top != -1{
-		stack.data = stack.data[:stack.top]
-	}else{
-		stack.InitStack()
-	}
-	return v, nil
+	var p *LNode
+	p = node.next
+	node.next = p.next
+	return p.data, nil
 }
 ```
 
 ## 完整实现
 
 ```go
-type Stack struct {
-	data []interface{}
-	top int
+type LNode struct {
+	data interface{}
+	next *LNode
 }
 
+func (node *LNode)InitStack(){
 
-//初始化栈
-func (stack *Stack)InitStack(){
-	stack.data = make([]interface{}, 0)
-	stack.top = -1
 }
 
-
-//判断是否为空
-func (stack *Stack)IsEmpty() bool{
-	if stack.top == -1{
+// 判断栈空
+func (node *LNode)IsEmpty() bool{
+	if node.next == nil{
 		return true
 	}
 	return false
 }
 
-//数据入栈
-func (stack *Stack)Push(v interface{}){
-	stack.top++
-	stack.data = append(stack.data, v)
+// 入栈
+func (node *LNode)Push(v interface{}){
+	temp := &LNode{
+		data:v,
+		next:nil,
+	}
+	temp.next = node.next
+	node.next = temp
 }
 
-//数据出栈
-func (stack *Stack)Pop() (interface{}, error){
-	if stack.IsEmpty(){
+// 出栈
+func (node *LNode)Pop() (interface{}, error) {
+	if node.IsEmpty(){
 		return nil, errors.New("empty stack")
 	}
-	v := stack.data[stack.top]
-	stack.top--
-	if stack.top != -1{
-		stack.data = stack.data[:stack.top]
-	}else{
-		stack.InitStack()
-	}
-	return v, nil
+	var p *LNode
+	p = node.next
+	node.next = p.next
+	return p.data, nil
 }
 ```
 
