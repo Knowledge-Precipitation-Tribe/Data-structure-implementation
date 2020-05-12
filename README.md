@@ -1,59 +1,86 @@
-# Data-structure-implementation
-数据结构与算法实现
-
-## 文章列表
-
-- <a href = "https://docs.data-structures.knowledge-precipitation.site/xian-xing-biao/ji-ben-gai-nian">线性表</a>
-- <a href = "https://docs.data-structures.knowledge-precipitation.site/zhan-he-dui-lie/ji-ben-gai-nian">栈和队列</a>
-- <a href = "https://docs.data-structures.knowledge-precipitation.site/chuan/ji-ben-gai-nian">串</a>
-- <a href = "https://docs.data-structures.knowledge-precipitation.site/shu-zu-ju-zhen-yu-guang-yi-biao/ji-ben-gai-nian">数组，矩阵与广义表</a>
-- <a href = "https://docs.data-structures.knowledge-precipitation.site/shu/ji-ben-gai-nian">树与二叉树</a>
-- <a href  =  "https://docs.data-structures.knowledge-precipitation.site/tu/ji-ben-gai-nian">图</a>
-- <a href = "https://docs.data-structures.knowledge-precipitation.site/pai-xu/ji-ben-gai-nian">排序</a>
-- <a href = "https://docs.data-structures.knowledge-precipitation.site/cha-zhao/ji-ben-gai-nian">查找</a>
-- <a href = "#参考文献">参考文献</a>
-    - <a href = "#滑动窗口">滑动窗口</a>
-    - <a href = "#动态规划">动态规划</a>
-    - <a href = "#算法可视化">算法可视化</a>
-
-## [参考文献](#content)
-
-[1] labuladong的算法小抄: https://labuladong.gitbook.io/algo/
-
-[2] 算法第四版: https://book.douban.com/subject/19952400/
-
-[3] [play-with-Data-Struces](play-with-Data-Struces)
-
-[4] [problem-solving-with-algorithms-and-data-structure-using-pytho](https://runestone.academy/runestone/books/published/pythonds/index.html), 以及[中文版本](https://github.com/facert/python-data-structure-cn)
-
-[5] [williamfiset/Algorithms](https://github.com/williamfiset/Algorithms)
-
-### [滑动窗口](#content)
-
-[1] https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/solution/shi-yao-shi-hua-dong-chuang-kou-yi-ji-ru-he-yong-h/
-
-### [动态规划](#content)
-
-[1] Nikola Otasevic: [Follow these steps to solve any Dynamic Programming interview problem](https://medium.com/free-code-camp/follow-these-steps-to-solve-any-dynamic-programming-interview-problem-cc98e508cd0e)
-
-[2] Alaina Kafkes: [Demystifying Dynamic Programming](https://medium.com/free-code-camp/demystifying-dynamic-programming-3efafb8d4296)
-
-[3] Oleksii Trekhleb: [Dynamic Programming vs Divide-and-Conquer](https://itnext.io/dynamic-programming-vs-divide-and-conquer-2fea680becbe)
-
-[4] Vaidehi Joshi: [Less Repetition, More Dynamic Programming](https://medium.com/basecs/less-repetition-more-dynamic-programming-43d29830a630)
-
-[5] Coding Freak: [Top 50 Dynamic Programming Practice Problems](https://blog.usejournal.com/top-50-dynamic-programming-practice-problems-4208fed71aa3)
-
-[6] HankingHu: [动态规划 Dynamic Programming--从菜鸟到老鸟](https://blog.csdn.net/u013309870/article/details/75193592)
-
-### [算法可视化](#content)
-
-[1] VisuAlgo: https://visualgo.net/zh
-
-[2] https://www.cs.usfca.edu/~galles/visualization/about.html
-
-[3] https://algorithm-visualizer.org/
-
-
+# Data structures and Algorithms
 
 > **如果我不能亲手搭建起来一个东西，那么我就不能理解它。 -- 美国物理学家理查德·费曼**
+
+![](.gitbook/assets/image%20%2817%29.png)
+
+## 内容
+
+* [线性表](xian-xing-biao/ji-ben-gai-nian.md)
+* [栈和队列](zhan-he-dui-lie/zhan/)
+* [串](zhan-he-dui-lie/ji-ben-gai-nian.md)
+* [数组、矩阵与广义表](shu-zu-ju-zhen-yu-guang-yi-biao/ji-ben-gai-nian.md)
+* [树](shu/ji-ben-gai-nian.md)
+* [图](tu/ji-ben-gai-nian.md)
+* [排序](pai-xu/ji-ben-gai-nian.md)
+* [查找](cha-zhao/ji-ben-gai-nian.md)
+* 算法
+  * [并查集](suan-fa/bing-cha-ji/)
+* [参考文献](can-kao-wen-xian.md)
+
+## 数据结构
+
+是指相互之间存在一种或多种特定关系的数据元素的集合用计算机存储、组织数据的方式。数据结构分别为逻辑结构、（存储）物理结构和数据的运算三个部分。
+
+## 数据的逻辑结构
+
+数据的逻辑结构是对数据之间关系的描述，他与数据的存储结构无关，同一种逻辑可以有多种存储结构。
+
+* 线性结构
+* 非线性结构
+
+## 数据的物理结构
+
+数据的物理结构又称为存储结构，是数据的逻辑结构在计算机中的表示。
+
+* 顺序存储方法
+* 链式存储方法
+* 索引存储方法
+* 散列存储方法
+
+## 算法
+
+算法可以理解为由基本运算和规定的运算顺序所构成的完整的问题解决步骤。
+
+### 算法的特性
+
+（1）有穷性
+
+一个算法必须保证执行有限步之后结束
+
+（2）确定性
+
+算法的每一步骤都必须有确定的定义
+
+（3）输入
+
+一个算法有0个或多个输入
+
+（4）输出
+
+一个算法有一个或多个输出，以反应对输入数据加工后的结果
+
+（5）可行性
+
+算法中的所有操作都必须可以通过已经实现的基本操作进行计算，并在有限次内实现。
+
+### 算法的设计目标
+
+（1）正确性
+
+要求算法能够正确的执行预先规定的功能和性能要求。这是最基本的标准
+
+（2）可读性
+
+要求算法易于理解
+
+（3）健壮性
+
+要求算法有很好的容错性，能够对不合理的数据进行检查
+
+（4）高效率与第存储量需求
+
+算法的效率主要是指算法的执行时间
+
+算法的存储量是指算法执行过程中所需要的最大存储空间
+
