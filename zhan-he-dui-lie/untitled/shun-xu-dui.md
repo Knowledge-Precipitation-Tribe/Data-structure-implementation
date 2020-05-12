@@ -6,7 +6,7 @@
 
 为了解决这个问题，我们采取循环队列的方式，就是将数组弄成逻辑上的环状。让front和rear沿着环走，这样就不会出现假溢出现象。
 
-![](../../.gitbook/assets/image%20%2824%29.png)
+![](../../.gitbook/assets/image%20%2825%29.png)
 
 从图示中可以看到，我们必须牺牲一个空间，以此来判断队列是否为空。
 
@@ -67,70 +67,72 @@ func (queue *Queue)EnQueue(v interface{}) error{
 }
 ```
 
-### 出栈
+### 出队
 
-移动
+移动队头指针
 
 ```go
-//数据出栈
-func (stack *Stack)Pop() (interface{}, error){
-	if stack.IsEmpty(){
-		return nil, errors.New("empty stack")
+//出队
+func (queue *Queue)DeQueue() (interface{}, error) {
+	if queue.IsEmpty(){
+		return nil, errors.New("empty queue")
 	}
-	v := stack.data[stack.top]
-	stack.top--
-	if stack.top != -1{
-		stack.data = stack.data[:stack.top]
-	}else{
-		stack.InitStack()
-	}
-	return v, nil
+	queue.front = (queue.front + 1) % queue.maxSize
+	return queue.data[queue.front], nil
 }
 ```
 
 ## 完整实现
 
 ```go
-type Stack struct {
+type Queue struct {
 	data []interface{}
-	top int
+	maxSize int
+	front int
+	rear int
 }
 
-
-//初始化栈
-func (stack *Stack)InitStack(){
-	stack.data = make([]interface{}, 0)
-	stack.top = -1
+//初始化队列
+func (queue *Queue)InitQueue(maxSize int){
+	queue.data = make([]interface{}, maxSize)
+	queue.maxSize = maxSize
+	queue.front = 0
+	queue.rear = 0
 }
 
-
-//判断是否为空
-func (stack *Stack)IsEmpty() bool{
-	if stack.top == -1{
+//判断队空
+func (queue *Queue)IsEmpty() bool{
+	if queue.front == queue.rear{
 		return true
 	}
 	return false
 }
 
-//数据入栈
-func (stack *Stack)Push(v interface{}){
-	stack.top++
-	stack.data = append(stack.data, v)
+//判断队满
+func (queue *Queue)IsFull() bool{
+	if (queue.rear + 1) % queue.maxSize == queue.front{
+		return true
+	}
+	return false
 }
 
-//数据出栈
-func (stack *Stack)Pop() (interface{}, error){
-	if stack.IsEmpty(){
-		return nil, errors.New("empty stack")
+//入队
+func (queue *Queue)EnQueue(v interface{}) error{
+	if queue.IsFull(){
+		return errors.New("full queue")
 	}
-	v := stack.data[stack.top]
-	stack.top--
-	if stack.top != -1{
-		stack.data = stack.data[:stack.top]
-	}else{
-		stack.InitStack()
+	queue.rear = (queue.rear + 1) % queue.maxSize
+	queue.data[queue.rear] = v
+	return nil
+}
+
+//出队
+func (queue *Queue)DeQueue() (interface{}, error) {
+	if queue.IsEmpty(){
+		return nil, errors.New("empty queue")
 	}
-	return v, nil
+	queue.front = (queue.front + 1) % queue.maxSize
+	return queue.data[queue.front], nil
 }
 ```
 

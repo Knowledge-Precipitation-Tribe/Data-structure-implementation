@@ -4,9 +4,9 @@
 
 给定一棵二叉搜索树，请找出其中第k大的节点。
 
-![](../../../.gitbook/assets/image%20%2814%29.png)
+![](../../../.gitbook/assets/image%20%2815%29.png)
 
-![](../../../.gitbook/assets/image%20%2822%29.png)
+![](../../../.gitbook/assets/image%20%2823%29.png)
 
 限制：
 
@@ -18,7 +18,7 @@
 
 ## 题解
 
-![](../../../.gitbook/assets/image%20%2826%29.png)
+![](../../../.gitbook/assets/image%20%2827%29.png)
 
 ```go
 func kthLargest(root *TreeNode, k int) int {

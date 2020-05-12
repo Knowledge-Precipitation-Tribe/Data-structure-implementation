@@ -13,7 +13,7 @@
 
 队列最明显的特点就是**先进先出（FIFO）。**
 
-![](../../.gitbook/assets/image%20%2818%29.png)
+![](../../.gitbook/assets/image%20%2819%29.png)
 
 ## **队列的存储结构**
 

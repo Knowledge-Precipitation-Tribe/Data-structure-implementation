@@ -13,7 +13,7 @@
 
 栈最明显的特点就是**先进后出（FILO）。**
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+![](../../.gitbook/assets/image%20%2814%29.png)
 
 ## **栈的存储结构**
 
