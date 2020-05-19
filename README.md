@@ -20,7 +20,7 @@
 
 ### 涉及的内容
 
-![](.gitbook/assets/image%20%2832%29.png)
+![](.gitbook/assets/image%20%2837%29.png)
 
 ## 数据结构
 
