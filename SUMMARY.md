@@ -42,6 +42,7 @@
     * [二叉搜索树的第k大节点](shu/er-cha-shu/chang-jian-suan-fa/er-cha-sou-suo-shu-de-dikda-jie-dian.md)
     * [从上倒下打印二叉树/层次遍历](shu/er-cha-shu/chang-jian-suan-fa/cong-shang-dao-xia-da-yin-er-cha-shu-ceng-ci-bian-li.md)
     * [重建二叉树](shu/er-cha-shu/chang-jian-suan-fa/zhong-jian-er-cha-shu.md)
+    * [树的子结构](shu/er-cha-shu/chang-jian-suan-fa/shu-de-zi-jie-gou.md)
 * [树与森林](shu/shu-yu-sen-lin/README.md)
   * [树转换为二叉树](shu/shu-yu-sen-lin/shu-zhuan-huan-wei-er-cha-shu.md)
   * [二叉树转换为树](shu/shu-yu-sen-lin/er-cha-shu-zhuan-huan-wei-shu.md)
