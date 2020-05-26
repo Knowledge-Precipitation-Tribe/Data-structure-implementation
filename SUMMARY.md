@@ -9,6 +9,9 @@
 
 * [基本概念](xian-xing-biao/ji-ben-gai-nian.md)
 * [线性表](xian-xing-biao/xian-xing-biao.md)
+* [链表](xian-xing-biao/lian-biao/README.md)
+  * [带头结点单链表](xian-xing-biao/lian-biao/dai-tou-jie-dian-dan-lian-biao.md)
+  * [不带头结点单链表](xian-xing-biao/lian-biao/bu-dai-tou-jie-dian-dan-lian-biao.md)
 
 ## 栈和队列
 
