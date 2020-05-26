@@ -3,8 +3,8 @@ package Array
 import "fmt"
 
 type ArrayList struct {
-	data   []int
-	length int
+	data   []int //存储数据
+	length int //线性表长度
 }
 
 func (list *ArrayList) Init() {
@@ -12,7 +12,7 @@ func (list *ArrayList) Init() {
 	list.length = 0
 }
 
-//找到元素返回下标，未找到返回-1
+//找到元素返回下标, true，未找到返回-1, false
 func (list *ArrayList) FindElem(x int) (int, bool) {
 	for i := 0; i < list.length; i++ {
 		if list.data[i] == x {
