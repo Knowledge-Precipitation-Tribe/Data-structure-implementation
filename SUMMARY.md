@@ -8,6 +8,7 @@
 ## 线性表
 
 * [基本概念](xian-xing-biao/ji-ben-gai-nian.md)
+* [线性表](xian-xing-biao/xian-xing-biao.md)
 
 ## 栈和队列
 

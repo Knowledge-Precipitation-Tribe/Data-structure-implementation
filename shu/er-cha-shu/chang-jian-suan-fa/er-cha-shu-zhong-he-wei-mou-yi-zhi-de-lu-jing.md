@@ -6,7 +6,7 @@
 
 示例: 给定如下二叉树，以及目标和 `sum = 22`，
 
-![](../../../.gitbook/assets/image%20%2840%29.png)
+![](../../../.gitbook/assets/image%20%2842%29.png)
 
 返回:
 
