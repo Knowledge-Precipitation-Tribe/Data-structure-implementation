@@ -8,7 +8,7 @@
 
 * [线性表](xian-xing-biao/ji-ben-gai-nian.md)
 * [栈和队列](zhan-he-dui-lie/zhan/)
-* [串](zhan-he-dui-lie/ji-ben-gai-nian.md)
+* [串]()
 * [数组、矩阵与广义表](shu-zu-ju-zhen-yu-guang-yi-biao/ji-ben-gai-nian.md)
 * [树](shu/ji-ben-gai-nian.md)
 * [图](tu/ji-ben-gai-nian.md)
