@@ -26,6 +26,8 @@
 * [队列](zhan-he-dui-lie/untitled/README.md)
   * [顺序队](zhan-he-dui-lie/untitled/shun-xu-dui.md)
   * [链队](zhan-he-dui-lie/untitled/lian-dui.md)
+  * [队列的应用](zhan-he-dui-lie/untitled/dui-lie-de-ying-yong/README.md)
+    * [阻塞队列和并发队列](zhan-he-dui-lie/untitled/dui-lie-de-ying-yong/zu-sai-dui-lie-he-bing-fa-dui-lie.md)
 * [Untitled](zhan-he-dui-lie/untitled-1.md)
 * [基本概念](zhan-he-dui-lie/ji-ben-gai-nian.md)
 
