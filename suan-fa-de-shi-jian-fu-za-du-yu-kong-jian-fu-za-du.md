@@ -15,6 +15,8 @@
 
 ## 大O表示法
 
+一个在线的互动教程，通过可以运行的代码示例，解释 O\(n\) 表示法与算法复杂性之间的关系。网址：[https://algodaily.com/lessons/understanding-big-o-and-algorithmic-complexity](https://algodaily.com/lessons/understanding-big-o-and-algorithmic-complexity)
+
 算法的执行效率粗略地讲，就是算法代码执行的时间。但是，如何在不运行代码的情况下，用“肉眼”得到一段代码的执行时间呢？
 
 我们先来看一下下面这段简单的代码。
