@@ -11,6 +11,7 @@ func main() {
 	//arr = sort_algo.SelectSort(arr)
 	//arr = sort_algo.InsertionSort(arr)
 	//sort_algo.MergeSort(arr, 0, len(arr) - 1)
-	sort_algo.QuickSort(arr, 0, len(arr) - 1)
+	//sort_algo.QuickSort(arr, 0, len(arr) - 1)
+	arr = sort_algo.BucketSort(arr, 5)
 	fmt.Println(arr)
 }
