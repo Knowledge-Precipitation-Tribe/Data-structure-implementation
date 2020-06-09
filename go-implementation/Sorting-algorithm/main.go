@@ -11,8 +11,6 @@ func main() {
 	//arr = sort_algo.SelectSort(arr)
 	//arr = sort_algo.InsertionSort(arr)
 	//sort_algo.MergeSort(arr, 0, len(arr) - 1)
-	//sort_algo.QuickSort(arr, 0, len(arr) - 1)
-	done := make(chan struct{})
-	sort_algo.QuickSortConcurrent(arr, 0, len(arr) - 1, done, 0)
+	sort_algo.QuickSort(arr, 0, len(arr) - 1)
 	fmt.Println(arr)
 }
