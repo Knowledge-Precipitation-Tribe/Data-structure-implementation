@@ -79,6 +79,19 @@
 ## 排序
 
 * [基本概念](pai-xu/ji-ben-gai-nian.md)
+* [比较类排序](pai-xu/bi-jiao-lei-pai-xu/README.md)
+  * [冒泡排序](pai-xu/bi-jiao-lei-pai-xu/mao-pao-pai-xu.md)
+  * [快速排序](pai-xu/bi-jiao-lei-pai-xu/kuai-su-pai-xu.md)
+  * [插入排序](pai-xu/bi-jiao-lei-pai-xu/cha-ru-pai-xu.md)
+  * [希尔排序](pai-xu/bi-jiao-lei-pai-xu/xi-er-pai-xu.md)
+  * [选择排序](pai-xu/bi-jiao-lei-pai-xu/xuan-ze-pai-xu.md)
+  * [堆排序](pai-xu/bi-jiao-lei-pai-xu/dui-pai-xu.md)
+  * [二路归并排序](pai-xu/bi-jiao-lei-pai-xu/er-lu-gui-bing-pai-xu.md)
+  * [多路归并排序](pai-xu/bi-jiao-lei-pai-xu/duo-lu-gui-bing-pai-xu.md)
+* [非比较排序](pai-xu/fei-bi-jiao-pai-xu/README.md)
+  * [计数排序](pai-xu/fei-bi-jiao-pai-xu/ji-shu-pai-xu.md)
+  * [桶排序](pai-xu/fei-bi-jiao-pai-xu/tong-pai-xu.md)
+  * [基数排序](pai-xu/fei-bi-jiao-pai-xu/ji-shu-pai-xu-1.md)
 
 ## 查找
 
