@@ -12,6 +12,8 @@
 * [链表](xian-xing-biao/lian-biao/README.md)
   * [带头结点单链表](xian-xing-biao/lian-biao/dai-tou-jie-dian-dan-lian-biao.md)
   * [不带头结点单链表](xian-xing-biao/lian-biao/bu-dai-tou-jie-dian-dan-lian-biao.md)
+  * [常见算法](xian-xing-biao/lian-biao/chang-jian-suan-fa/README.md)
+    * [复杂链表的复制](xian-xing-biao/lian-biao/chang-jian-suan-fa/fu-za-lian-biao-de-fu-zhi.md)
 
 ## 栈和队列
 
@@ -71,6 +73,7 @@
   * [常见算法](shu/ping-heng-er-cha-shu/chang-jian-suan-fa/README.md)
     * [平衡二叉树](shu/ping-heng-er-cha-shu/chang-jian-suan-fa/ping-heng-er-cha-shu.md)
 * [赫夫曼树与赫夫曼编码](shu/he-fu-man-shu-yu-he-fu-man-bian-ma.md)
+* [红黑树](shu/hong-hei-shu.md)
 
 ## 图
 
@@ -96,6 +99,8 @@
 ## 查找
 
 * [基本概念](cha-zhao/ji-ben-gai-nian.md)
+* [二分查找](cha-zhao/er-fen-cha-zhao.md)
+* [跳表](cha-zhao/tiao-biao.md)
 
 ## 算法
 
