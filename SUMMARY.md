@@ -72,8 +72,9 @@
 * [平衡二叉树](shu/ping-heng-er-cha-shu/README.md)
   * [常见算法](shu/ping-heng-er-cha-shu/chang-jian-suan-fa/README.md)
     * [平衡二叉树](shu/ping-heng-er-cha-shu/chang-jian-suan-fa/ping-heng-er-cha-shu.md)
-* [赫夫曼树与赫夫曼编码](shu/he-fu-man-shu-yu-he-fu-man-bian-ma.md)
+* [平衡二叉查找树](shu/ping-heng-er-cha-cha-zhao-shu.md)
 * [红黑树](shu/hong-hei-shu.md)
+* [赫夫曼树与赫夫曼编码](shu/he-fu-man-shu-yu-he-fu-man-bian-ma.md)
 
 ## 图
 
