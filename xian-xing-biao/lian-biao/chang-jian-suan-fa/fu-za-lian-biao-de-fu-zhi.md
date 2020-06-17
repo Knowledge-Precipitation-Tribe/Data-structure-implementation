@@ -4,7 +4,7 @@
 
 示例 1：
 
-![](../../../.gitbook/assets/image%20%2896%29.png)
+![](../../../.gitbook/assets/image%20%28104%29.png)
 
 ```text
 输入：head = [[7,null],[13,0],[11,4],[10,2],[1,0]] 
@@ -13,7 +13,7 @@
 
 示例 2：
 
-![](../../../.gitbook/assets/image%20%2890%29.png)
+![](../../../.gitbook/assets/image%20%2895%29.png)
 
 ```text
 输入：head = [[1,1],[2,1]] 
@@ -22,7 +22,7 @@
 
 示例 3：
 
-![](../../../.gitbook/assets/image%20%2882%29.png)
+![](../../../.gitbook/assets/image%20%2886%29.png)
 
 ```text
 输入：head = [[3,null],[3,0],[3,null]] 
