@@ -14,6 +14,7 @@
   * [不带头结点单链表](xian-xing-biao/lian-biao/bu-dai-tou-jie-dian-dan-lian-biao.md)
   * [常见算法](xian-xing-biao/lian-biao/chang-jian-suan-fa/README.md)
     * [复杂链表的复制](xian-xing-biao/lian-biao/chang-jian-suan-fa/fu-za-lian-biao-de-fu-zhi.md)
+    * [删除链表的倒数第N个节点](xian-xing-biao/lian-biao/chang-jian-suan-fa/shan-chu-lian-biao-de-dao-shu-dinge-jie-dian.md)
 
 ## 栈和队列
 
@@ -111,5 +112,8 @@
   * [加权quick-union](suan-fa/bing-cha-ji/jia-quan-quickunion.md)
   * [路径压缩的quick-union](suan-fa/bing-cha-ji/lu-jing-ya-suo-de-quickunion.md)
 * [Untitled](suan-fa/untitled.md)
+
+---
+
 * [参考文献](can-kao-wen-xian.md)
 
