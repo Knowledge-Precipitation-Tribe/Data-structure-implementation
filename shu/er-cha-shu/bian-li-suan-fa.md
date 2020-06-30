@@ -118,7 +118,7 @@ func PostShowTree(node *model.Node){
 
 层次遍历算法是根据二叉树的层次逐层遍历的算法
 
-![](../../.gitbook/assets/image%20%28137%29.png)
+![](../../.gitbook/assets/image%20%28143%29.png)
 
 {% tabs %}
 {% tab title="递归方式" %}
