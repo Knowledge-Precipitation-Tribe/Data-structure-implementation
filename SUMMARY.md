@@ -36,6 +36,7 @@
 ## 递归
 
 * [基本概念](di-gui/ji-ben-gai-nian.md)
+* [递归树](di-gui/di-gui-shu.md)
 
 ## 串
 
@@ -53,7 +54,6 @@
   * [主要性质](shu/er-cha-shu/zhu-yao-xing-zhi.md)
   * [存储结构](shu/er-cha-shu/cun-chu-jie-gou.md)
   * [遍历算法](shu/er-cha-shu/bian-li-suan-fa.md)
-  * [线索二叉树](shu/er-cha-shu/xian-suo-er-cha-shu.md)
   * [常见算法](shu/er-cha-shu/chang-jian-suan-fa/README.md)
     * [求树的深度](shu/er-cha-shu/chang-jian-suan-fa/qiu-shu-de-shen-du.md)
     * [二叉树的镜像](shu/er-cha-shu/chang-jian-suan-fa/er-cha-shu-de-jing-xiang.md)
@@ -75,6 +75,7 @@
   * [常见算法](shu/ping-heng-er-cha-shu/chang-jian-suan-fa/README.md)
     * [平衡二叉树](shu/ping-heng-er-cha-shu/chang-jian-suan-fa/ping-heng-er-cha-shu.md)
 * [平衡二叉查找树](shu/ping-heng-er-cha-cha-zhao-shu.md)
+* [线索二叉树](shu/xian-suo-er-cha-shu.md)
 * [红黑树](shu/hong-hei-shu.md)
 * [赫夫曼树与赫夫曼编码](shu/he-fu-man-shu-yu-he-fu-man-bian-ma.md)
 
@@ -113,7 +114,13 @@
   * [quick-union](suan-fa/bing-cha-ji/quick-union.md)
   * [加权quick-union](suan-fa/bing-cha-ji/jia-quan-quickunion.md)
   * [路径压缩的quick-union](suan-fa/bing-cha-ji/lu-jing-ya-suo-de-quickunion.md)
-* [Untitled](suan-fa/untitled.md)
+
+## 加密算法
+
+* [哈希算法](jia-mi-suan-fa/untitled-1.md)
+* [数字摘要](jia-mi-suan-fa/shu-zi-zhai-yao.md)
+* [加密算法](jia-mi-suan-fa/jia-mi-suan-fa.md)
+* [MD5](jia-mi-suan-fa/md5.md)
 
 ---
 
