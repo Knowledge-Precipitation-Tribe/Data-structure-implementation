@@ -15,6 +15,7 @@
   * [常见算法](xian-xing-biao/lian-biao/chang-jian-suan-fa/README.md)
     * [复杂链表的复制](xian-xing-biao/lian-biao/chang-jian-suan-fa/fu-za-lian-biao-de-fu-zhi.md)
     * [删除链表的倒数第N个节点](xian-xing-biao/lian-biao/chang-jian-suan-fa/shan-chu-lian-biao-de-dao-shu-dinge-jie-dian.md)
+    * [合并K个排序链表](xian-xing-biao/lian-biao/chang-jian-suan-fa/he-bingkge-pai-xu-lian-biao.md)
 
 ## 栈和队列
 
