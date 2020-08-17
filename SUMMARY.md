@@ -18,6 +18,7 @@
     * [删除排序数组中的重复项](xian-xing-biao/xian-xing-biao/chang-jian-suan-fa/shan-chu-pai-xu-shu-zu-zhong-de-zhong-fu-xiang.md)
     * [旋转数组](xian-xing-biao/xian-xing-biao/chang-jian-suan-fa/xuan-zhuan-shu-zu.md)
     * [合并两个有序数组](xian-xing-biao/xian-xing-biao/chang-jian-suan-fa/he-bing-liang-ge-you-xu-shu-zu.md)
+    * [加一](xian-xing-biao/xian-xing-biao/chang-jian-suan-fa/jia-yi.md)
 * [链表](xian-xing-biao/lian-biao/README.md)
   * [带头结点单链表](xian-xing-biao/lian-biao/dai-tou-jie-dian-dan-lian-biao.md)
   * [不带头结点单链表](xian-xing-biao/lian-biao/bu-dai-tou-jie-dian-dan-lian-biao.md)
