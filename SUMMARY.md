@@ -8,7 +8,13 @@
 ## 线性表
 
 * [基本概念](xian-xing-biao/ji-ben-gai-nian.md)
-* [线性表](xian-xing-biao/xian-xing-biao.md)
+* [线性表](xian-xing-biao/xian-xing-biao/README.md)
+  * [常见算法](xian-xing-biao/xian-xing-biao/chang-jian-suan-fa/README.md)
+    * [盛最多水的容器](xian-xing-biao/xian-xing-biao/chang-jian-suan-fa/sheng-zui-duo-shui-de-rong-qi.md)
+    * [移动零](xian-xing-biao/xian-xing-biao/chang-jian-suan-fa/yi-dong-ling.md)
+    * [爬楼梯](xian-xing-biao/xian-xing-biao/chang-jian-suan-fa/pa-lou-ti.md)
+    * [两数之和](xian-xing-biao/xian-xing-biao/chang-jian-suan-fa/liang-shu-zhi-he.md)
+    * [三数之和](xian-xing-biao/xian-xing-biao/chang-jian-suan-fa/san-shu-zhi-he.md)
 * [链表](xian-xing-biao/lian-biao/README.md)
   * [带头结点单链表](xian-xing-biao/lian-biao/dai-tou-jie-dian-dan-lian-biao.md)
   * [不带头结点单链表](xian-xing-biao/lian-biao/bu-dai-tou-jie-dian-dan-lian-biao.md)
