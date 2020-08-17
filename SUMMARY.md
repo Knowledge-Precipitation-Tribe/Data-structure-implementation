@@ -15,13 +15,22 @@
     * [爬楼梯](xian-xing-biao/xian-xing-biao/chang-jian-suan-fa/pa-lou-ti.md)
     * [两数之和](xian-xing-biao/xian-xing-biao/chang-jian-suan-fa/liang-shu-zhi-he.md)
     * [三数之和](xian-xing-biao/xian-xing-biao/chang-jian-suan-fa/san-shu-zhi-he.md)
+    * [删除排序数组中的重复项](xian-xing-biao/xian-xing-biao/chang-jian-suan-fa/shan-chu-pai-xu-shu-zu-zhong-de-zhong-fu-xiang.md)
+    * [旋转数组](xian-xing-biao/xian-xing-biao/chang-jian-suan-fa/xuan-zhuan-shu-zu.md)
+    * [合并两个有序数组](xian-xing-biao/xian-xing-biao/chang-jian-suan-fa/he-bing-liang-ge-you-xu-shu-zu.md)
 * [链表](xian-xing-biao/lian-biao/README.md)
   * [带头结点单链表](xian-xing-biao/lian-biao/dai-tou-jie-dian-dan-lian-biao.md)
   * [不带头结点单链表](xian-xing-biao/lian-biao/bu-dai-tou-jie-dian-dan-lian-biao.md)
   * [常见算法](xian-xing-biao/lian-biao/chang-jian-suan-fa/README.md)
+    * [反转链表](xian-xing-biao/lian-biao/chang-jian-suan-fa/fan-zhuan-lian-biao.md)
+    * [两两交换链表中的节点](xian-xing-biao/lian-biao/chang-jian-suan-fa/liang-liang-jiao-huan-lian-biao-zhong-de-jie-dian.md)
     * [复杂链表的复制](xian-xing-biao/lian-biao/chang-jian-suan-fa/fu-za-lian-biao-de-fu-zhi.md)
     * [删除链表的倒数第N个节点](xian-xing-biao/lian-biao/chang-jian-suan-fa/shan-chu-lian-biao-de-dao-shu-dinge-jie-dian.md)
+    * [合并两个有序链表](xian-xing-biao/lian-biao/chang-jian-suan-fa/he-bing-liang-ge-you-xu-lian-biao.md)
     * [合并K个排序链表](xian-xing-biao/lian-biao/chang-jian-suan-fa/he-bingkge-pai-xu-lian-biao.md)
+    * [环形链表](xian-xing-biao/lian-biao/chang-jian-suan-fa/huan-xing-lian-biao.md)
+    * [环形链表 II](xian-xing-biao/lian-biao/chang-jian-suan-fa/huan-xing-lian-biao-ii.md)
+    * [K个一组翻转链表](xian-xing-biao/lian-biao/chang-jian-suan-fa/k-ge-yi-zu-fan-zhuan-lian-biao.md)
 
 ## 栈和队列
 
