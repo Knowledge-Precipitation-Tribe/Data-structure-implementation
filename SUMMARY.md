@@ -38,6 +38,8 @@
 * [栈](zhan-he-dui-lie/zhan/README.md)
   * [顺序栈](zhan-he-dui-lie/zhan/shun-xu-zhan.md)
   * [链栈](zhan-he-dui-lie/zhan/lian-zhan.md)
+  * [常见算法](zhan-he-dui-lie/zhan/chang-jian-suan-fa/README.md)
+    * [有效的括号](zhan-he-dui-lie/zhan/chang-jian-suan-fa/you-xiao-de-kuo-hao.md)
   * [栈的应用](zhan-he-dui-lie/zhan/zhan-de-ying-yong/README.md)
     * [栈在函数调用中的应用](zhan-he-dui-lie/zhan/zhan-de-ying-yong/zhan-zai-han-shu-tiao-yong-zhong-de-ying-yong.md)
     * [栈在表达式求值中的应用](zhan-he-dui-lie/zhan/zhan-de-ying-yong/zhan-zai-biao-da-shi-qiu-zhi-zhong-de-ying-yong.md)
