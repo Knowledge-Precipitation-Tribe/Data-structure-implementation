@@ -51,6 +51,7 @@
   * [链队](zhan-he-dui-lie/untitled/lian-dui.md)
   * [队列的应用](zhan-he-dui-lie/untitled/dui-lie-de-ying-yong/README.md)
     * [阻塞队列和并发队列](zhan-he-dui-lie/untitled/dui-lie-de-ying-yong/zu-sai-dui-lie-he-bing-fa-dui-lie.md)
+    * [双端队列](zhan-he-dui-lie/untitled/dui-lie-de-ying-yong/shuang-duan-dui-lie.md)
 
 ## 递归
 
