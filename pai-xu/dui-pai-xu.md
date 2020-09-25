@@ -46,7 +46,7 @@
 ```java
 public class Heap {
   private int[] a; // 数组，从下标1开始存储数据
-  private int n;  // 堆可以存储的最大数据个数
+  private int n;  // 堆ni可以存储的最大数据个数
   private int count; // 堆中已经存储的数据个数
 
   public Heap(int capacity) {
