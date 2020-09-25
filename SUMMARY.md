@@ -118,7 +118,9 @@
   * [计数排序](pai-xu/fei-bi-jiao-pai-xu/ji-shu-pai-xu.md)
   * [桶排序](pai-xu/fei-bi-jiao-pai-xu/tong-pai-xu.md)
   * [基数排序](pai-xu/fei-bi-jiao-pai-xu/ji-shu-pai-xu-1.md)
-* [堆排序](pai-xu/dui-pai-xu.md)
+* [堆排序](pai-xu/dui-pai-xu/README.md)
+  * [优先级队列](pai-xu/dui-pai-xu/you-xian-ji-dui-lie.md)
+  * [堆的应用](pai-xu/dui-pai-xu/dui-de-ying-yong.md)
 * [实现一个通用的、高性能的排序函数](pai-xu/shi-xian-yi-ge-tong-yong-de-gao-xing-neng-de-pai-xu-han-shu.md)
 
 ## 查找
