@@ -18,7 +18,7 @@
   * [并查集](suan-fa/bing-cha-ji/)
 * [参考文献](can-kao-wen-xian.md)
 
-### 涉及的内容
+## 思维导图
 
 ![](.gitbook/assets/image%20%2837%29.png)
 
