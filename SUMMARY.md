@@ -133,6 +133,7 @@
 
 ## 算法
 
+* [回溯算法](suan-fa/hui-su-suan-fa.md)
 * [并查集](suan-fa/bing-cha-ji/README.md)
   * [quick-find](suan-fa/bing-cha-ji/quick-find.md)
   * [quick-union](suan-fa/bing-cha-ji/quick-union.md)
