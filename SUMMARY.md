@@ -103,6 +103,7 @@
 ## 图
 
 * [基本概念](tu/ji-ben-gai-nian.md)
+* [图的遍历](tu/tu-de-bian-li.md)
 * [图的应用](tu/tu-de-ying-yong.md)
 
 ## 排序
