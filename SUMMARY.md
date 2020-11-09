@@ -152,4 +152,5 @@
 ---
 
 * [参考文献](can-kao-wen-xian.md)
+* [推荐资源](tui-jian-zi-yuan.md)
 
