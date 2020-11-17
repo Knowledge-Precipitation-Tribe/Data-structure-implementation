@@ -4,7 +4,9 @@
 * [时间复杂度分析](suan-fa-de-shi-jian-fu-za-du-yu-kong-jian-fu-za-du.md)
 * [最好、最坏、平均、均摊时间复杂度](zui-hao-zui-huai-ping-jun-jun-tan-shi-jian-fu-za-du.md)
 * [空间复杂度分析](kong-jian-fu-za-du-fen-xi.md)
-* [刷题](shua-ti.md)
+* [刷题](shua-ti/README.md)
+  * [动态规划解题套路框架](shua-ti/dong-tai-gui-hua-jie-ti-tao-lu-kuang-jia.md)
+  * [回溯算法解题套路框架](shua-ti/hui-su-suan-fa-jie-ti-tao-lu-kuang-jia.md)
 
 ## 线性表
 
