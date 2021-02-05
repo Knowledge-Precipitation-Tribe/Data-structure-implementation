@@ -134,6 +134,7 @@
 * [二分查找](cha-zhao/er-fen-cha-zhao.md)
 * [跳表](cha-zhao/tiao-biao.md)
 * [散列表](cha-zhao/san-lie-biao.md)
+* [B树与B+树](cha-zhao/b-shu-yu-b+-shu.md)
 
 ## 算法
 
