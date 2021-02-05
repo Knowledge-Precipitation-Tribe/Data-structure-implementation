@@ -8,5 +8,7 @@
 
 {% embed url="https://algorithm-visualizer.org/" %}
 
+{% embed url="https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs\_O" %}
+
 
 
