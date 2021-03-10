@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-implementation/Sorting-algorithm/sort-algo"
+	sort_algo "go-implementation/Sorting-algorithm/sort-algo"
 )
 
 func main() {
@@ -14,6 +14,7 @@ func main() {
 	//sort_algo.QuickSort(arr, 0, len(arr) - 1)
 	//arr = sort_algo.BucketSort(arr, 5)
 	//arr = sort_algo.CountingSort(arr, 10)
-	arr = sort_algo.RadixSort(arr, 9)
+	//arr = sort_algo.RadixSort(arr, 9)
+	sort_algo.HeapSort(arr)
 	fmt.Println(arr)
 }
