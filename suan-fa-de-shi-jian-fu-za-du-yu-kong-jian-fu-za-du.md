@@ -171,7 +171,23 @@ int cal(int n) {
 
 ### 递归算法时间复杂度分析
 
-相关文档：[https://blog.csdn.net/so\_geili/article/details/53444816](https://blog.csdn.net/so_geili/article/details/53444816)
+主方法为如下形式的递归式提供了一种“菜谱”式的求解方法，如下所示
+
+$$
+T(n)=a T(n / b)+f(n)
+$$
+
+其中$$a>=1$$和$$b>1$$是常数，$$f(n)$$是渐近正函数。这个递推式将规模为n的问题分解为a个子问题，每个子问题的规模为$$n/b$$，a个子问题递归地求解，每个花费时间$$T(n/b)$$。函数$$f(n)$$包含了问题分解和子问题解合并的代价。同样，这个递归式也没有考虑上取整、下取整、边界条件等，结果不会影响递归式的渐近性质。
+
+其中我们将$$n/b$$解释为$$ ⌊n/b⌋$$或$$⌈n/b⌉$$。那么$$T(n)$$有如下渐近界：
+
+* 若对某个常数$$ε>0$$，有$$f(n)=O\left(n^{\left(\log _{b} a\right)-\varepsilon}\right)$$，则$$T(n)=\Theta\left(n^{\left(\log _{b} a\right)}\right)$$。
+* 若$$f(n)=O\left(n^{\left(\log _{b} a\right)}\right)$$，则$$T(n)=\Theta\left(n^{\log _{b} a} \lg n\right)$$。
+* 若对某个常数$$ε>0$$，有$$f(n)=O\left(n^{\left(\log _{b} a\right)+\varepsilon}\right)$$，且对某个常数$$c<1$$和足够大的$$n$$有$$af(n/b)≤cf(n)$$，则$$T(n)=\Theta\left(f(n)\right)$$。
+
+例子
+
+![](https://tva1.sinaimg.cn/large/008eGmZEly1gof14s53b6j30wh0u0q96.jpg)
 
 我刚刚讲了几种复杂度的分析技巧。不过，你并不用刻意去记忆。实际上，**复杂度分析这个东西关键在于“熟练”**。你只要多看案例，多分析，就能做到“无招胜有招”。
 
