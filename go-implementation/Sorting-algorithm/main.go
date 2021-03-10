@@ -15,6 +15,7 @@ func main() {
 	//arr = sort_algo.BucketSort(arr, 5)
 	//arr = sort_algo.CountingSort(arr, 10)
 	//arr = sort_algo.RadixSort(arr, 9)
-	sort_algo.HeapSort(arr)
+	sort_algo.ShellSort(arr)
+	//sort_algo.HeapSort(arr)
 	fmt.Println(arr)
 }
